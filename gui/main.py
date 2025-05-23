@@ -5,7 +5,7 @@ class App:
     def __init__(self):
         self.root = ttk.Window(themename="superhero")
         self.root.title("POS System")
-        self.root.geometry("1000x600")
+        self.root.state('zoomed')  # This will maximize the window
         
     def run(self):
         self.root.mainloop()
