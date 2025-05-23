@@ -1,6 +1,7 @@
-from tkinter import *
+import ttkbootstrap as ttk
 
-root = Tk()
+root = ttk.Window(themename="superhero")
+
 root.title("POS System")
 root.geometry("1000x600")
 
